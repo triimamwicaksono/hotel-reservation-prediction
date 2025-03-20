@@ -35,19 +35,19 @@ class DataIngestion:
             logger.error(f"Error occured while downloading the data from bucket {e}")
             raise CustomException("Error occured while downloading the data from bucket",e)
         
-        def split_data(self):
-            try:
-                logger.info("Starting to split the data")
-                data = pd.read_csv(RAW_FILE_PATH)
-                train_data, test_data = train_test_split(data, test_size=1-self.train_test_ration, random_state=42)
-                logger.info("Data split completed")
+    def split_data(self):
+        try:
+            logger.info("Starting to split the data")
+            data = pd.read_csv(RAW_FILE_PATH)
+            train_data, test_data = train_test_split(data, test_size=1-self.train_test_ratio, random_state=42)
+            logger.info("Data split completed")
 
-                train_data.to_csv(TRAIN_FILE_PATH, index=False)
-                test_data.to_csv(TEST_FILE_PATH, Index=False)
-                logger.info(f"Train and Test data saved at {TRAIN_FILE_PATH} and {TEST_FILE_PATH}")
-            except Exception as e:
-                logger.error(f"Error occured while splitting the data {e}")
-                raise CustomException("Error occured while splitting the data",e)
+            train_data.to_csv(TRAIN_FILE_PATH, index=False)
+            test_data.to_csv(TEST_FILE_PATH, index=False)
+            logger.info(f"Train and Test data saved at {TRAIN_FILE_PATH} and {TEST_FILE_PATH}")
+        except Exception as e:
+            logger.error(f"Error occured while splitting the data {e}")
+            raise CustomException("Error occured while splitting the data",e)
         
     def run (self):
         self.download_data_from_bucket()

@@ -1,0 +1,44 @@
+2025-03-20 13:45:24,030 - INFO - Successfully raed the yaml file
+2025-03-20 13:45:24,030 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:45:25,355 - ERROR - Error occured while downloading the data from bucket ('invalid_grant: Account has been deleted', {'error': 'invalid_grant', 'error_description': 'Account has been deleted'})
+2025-03-20 13:48:16,527 - INFO - Successfully raed the yaml file
+2025-03-20 13:48:16,527 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:48:17,246 - ERROR - Error occured while downloading the data from bucket ('invalid_grant: Account has been deleted', {'error': 'invalid_grant', 'error_description': 'Account has been deleted'})
+2025-03-20 13:49:23,488 - INFO - Successfully raed the yaml file
+2025-03-20 13:49:23,488 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:49:24,747 - ERROR - Error occured while downloading the data from bucket 404 GET https://storage.googleapis.com/download/storage/v1/b/my-bucket3004/o/Hotel_Reservation.csv?alt=media: The specified bucket does not exist.: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2025-03-20 13:51:42,579 - INFO - Successfully raed the yaml file
+2025-03-20 13:51:42,580 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:51:43,904 - ERROR - Error occured while downloading the data from bucket 404 GET https://storage.googleapis.com/download/storage/v1/b/my-bucket3004/o/Hotel_Reservation.csv?alt=media: The specified bucket does not exist.: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2025-03-20 13:52:52,971 - INFO - Successfully raed the yaml file
+2025-03-20 13:52:52,972 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:52:55,340 - ERROR - Error occured while downloading the data from bucket 404 GET https://storage.googleapis.com/download/storage/v1/b/my_bucket3004/o/Hotel_Reservation.csv?alt=media: No such object: my_bucket3004/Hotel_Reservation.csv: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2025-03-20 13:53:56,484 - INFO - Successfully raed the yaml file
+2025-03-20 13:53:56,484 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:53:59,566 - INFO - Data downloaded from bucket my_bucket3004 and file save is artifacts/raw/raw.csv
+2025-03-20 13:54:46,835 - INFO - Successfully raed the yaml file
+2025-03-20 13:54:46,835 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:54:48,577 - INFO - Data downloaded from bucket my_bucket3004 and file save is artifacts/raw/raw.csv
+2025-03-20 13:55:10,047 - INFO - Successfully raed the yaml file
+2025-03-20 13:55:10,047 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:55:11,743 - INFO - Data downloaded from bucket my_bucket3004 and file save is artifacts/raw/raw.csv
+2025-03-20 13:55:11,744 - INFO - Starting to split the data
+2025-03-20 13:55:11,785 - ERROR - Error occured while splitting the data 'DataIngestion' object has no attribute 'train_test_ration'
+2025-03-20 13:55:26,527 - INFO - Successfully raed the yaml file
+2025-03-20 13:55:26,534 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:55:28,267 - INFO - Data downloaded from bucket my_bucket3004 and file save is artifacts/raw/raw.csv
+2025-03-20 13:55:28,267 - INFO - Starting to split the data
+2025-03-20 13:55:28,328 - ERROR - Error occured while splitting the data 'DataIngestion' object has no attribute 'train_test_ration'
+2025-03-20 13:55:57,058 - INFO - Successfully raed the yaml file
+2025-03-20 13:55:57,059 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:55:58,555 - INFO - Data downloaded from bucket my_bucket3004 and file save is artifacts/raw/raw.csv
+2025-03-20 13:55:58,555 - INFO - Starting to split the data
+2025-03-20 13:55:58,602 - INFO - Data split completed
+2025-03-20 13:55:58,686 - ERROR - Error occured while splitting the data NDFrame.to_csv() got an unexpected keyword argument 'Index'. Did you mean 'index'?
+2025-03-20 13:56:51,916 - INFO - Successfully raed the yaml file
+2025-03-20 13:56:51,916 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-20 13:56:55,001 - INFO - Data downloaded from bucket my_bucket3004 and file save is artifacts/raw/raw.csv
+2025-03-20 13:56:55,001 - INFO - Starting to split the data
+2025-03-20 13:56:55,049 - INFO - Data split completed
+2025-03-20 13:56:55,152 - INFO - Train and Test data saved at artifacts/raw/train.csv and artifacts/raw/test.csv
+2025-03-20 13:56:55,154 - INFO - Data Ingestion run completed
