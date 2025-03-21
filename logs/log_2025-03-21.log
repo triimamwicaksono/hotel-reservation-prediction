@@ -402,3 +402,13 @@ Fields with bad pandas dtypes: Booking_ID: object, type_of_meal_plan: object, ro
 2025-03-21 10:38:54,679 - INFO - Intializing our model
 2025-03-21 10:38:54,679 - INFO - Starting our Hyperparamter tuning
 2025-03-21 10:38:54,679 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:39:23,807 - INFO - Hyperparamter tuning completed
+2025-03-21 10:39:23,807 - INFO - Best paramters are : {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-03-21 10:39:23,807 - INFO - Staring Model Evaluation
+2025-03-21 10:39:23,856 - INFO - Accuracy : 0.8806183115338883
+2025-03-21 10:39:23,857 - INFO - Precision : 0.863667348329925
+2025-03-21 10:39:23,857 - INFO - Recall : 0.9039239001189061
+2025-03-21 10:39:23,857 - INFO - F1 Score : 0.8833372066000464
+2025-03-21 10:39:23,857 - INFO - Saving the model
+2025-03-21 10:39:23,884 - INFO - Model saved at artifacts/models/lgbm_model.pkl
+2025-03-21 10:39:23,893 - INFO - Model Training Pipeline Completed
