@@ -1,0 +1,342 @@
+2025-03-21 09:55:07,131 - INFO - Staring our model training pipeline
+2025-03-21 09:55:07,131 - INFO - Loading Data from artifacts/raw/train.csv
+2025-03-21 09:55:07,158 - INFO - Successfully loaded the data
+2025-03-21 09:55:07,158 - INFO - Loading Data from artifacts/raw/test.csv
+2025-03-21 09:55:07,166 - INFO - Successfully loaded the data
+2025-03-21 09:55:07,166 - INFO - Data Loaded Successfully
+2025-03-21 09:55:07,166 - ERROR - Error occured while running the model training pipeline not enough values to unpack (expected 4, got 2)
+2025-03-21 09:55:23,893 - INFO - Staring our model training pipeline
+2025-03-21 09:55:23,893 - INFO - Loading Data from artifacts/raw/train.csv
+2025-03-21 09:55:23,923 - INFO - Successfully loaded the data
+2025-03-21 09:55:23,923 - INFO - Loading Data from artifacts/raw/test.csv
+2025-03-21 09:55:23,931 - INFO - Successfully loaded the data
+2025-03-21 09:55:23,931 - INFO - Data Loaded Successfully
+2025-03-21 09:55:23,932 - ERROR - Error occured while running the model training pipeline not enough values to unpack (expected 4, got 2)
+2025-03-21 09:56:36,492 - INFO - Staring our model training pipeline
+2025-03-21 09:56:36,492 - INFO - Loading Data from artifacts/raw/train.csv
+2025-03-21 09:56:36,518 - INFO - Successfully loaded the data
+2025-03-21 09:56:36,518 - INFO - Loading Data from artifacts/raw/test.csv
+2025-03-21 09:56:36,525 - INFO - Successfully loaded the data
+2025-03-21 09:56:36,525 - INFO - Data Loaded Successfully
+2025-03-21 09:56:36,526 - INFO - Data Splitting Done Successfully
+2025-03-21 09:56:36,526 - ERROR - Error occured while loading and splitting the data name 'X_test' is not defined
+2025-03-21 09:56:36,526 - ERROR - Error occured while running the model training pipeline Error in /Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/src/model_training.py , line 43 : Failed to load Data
+2025-03-21 09:57:20,261 - INFO - Staring our model training pipeline
+2025-03-21 09:57:20,262 - INFO - Loading Data from artifacts/raw/train.csv
+2025-03-21 09:57:20,291 - INFO - Successfully loaded the data
+2025-03-21 09:57:20,291 - INFO - Loading Data from artifacts/raw/test.csv
+2025-03-21 09:57:20,298 - INFO - Successfully loaded the data
+2025-03-21 09:57:20,298 - INFO - Data Loaded Successfully
+2025-03-21 09:57:20,300 - INFO - Data Splitting Done Successfully
+2025-03-21 09:57:20,300 - INFO - Inititing Model Training
+2025-03-21 09:57:20,300 - INFO - Starting Hyperparameter Tuning
+2025-03-21 09:57:20,300 - ERROR - Error occured while running the model training pipeline name 'lgger' is not defined
+2025-03-21 09:57:32,588 - INFO - Staring our model training pipeline
+2025-03-21 09:57:32,588 - INFO - Loading Data from artifacts/raw/train.csv
+2025-03-21 09:57:32,616 - INFO - Successfully loaded the data
+2025-03-21 09:57:32,616 - INFO - Loading Data from artifacts/raw/test.csv
+2025-03-21 09:57:32,623 - INFO - Successfully loaded the data
+2025-03-21 09:57:32,623 - INFO - Data Loaded Successfully
+2025-03-21 09:57:32,625 - INFO - Data Splitting Done Successfully
+2025-03-21 09:57:32,625 - INFO - Inititing Model Training
+2025-03-21 09:57:32,625 - INFO - Starting Hyperparameter Tuning
+2025-03-21 09:57:32,625 - ERROR - Error occured while training the model 'ModelTraining' object has no attribute 'param_dist'
+2025-03-21 09:57:32,625 - ERROR - Error occured while running the model training pipeline Error in /Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/src/model_training.py , line 55 : Model Training Failed
+2025-03-21 09:58:13,059 - INFO - Staring our model training pipeline
+2025-03-21 09:58:13,059 - INFO - Loading Data from artifacts/raw/train.csv
+2025-03-21 09:58:13,087 - INFO - Successfully loaded the data
+2025-03-21 09:58:13,087 - INFO - Loading Data from artifacts/raw/test.csv
+2025-03-21 09:58:13,095 - INFO - Successfully loaded the data
+2025-03-21 09:58:13,095 - INFO - Data Loaded Successfully
+2025-03-21 09:58:13,097 - INFO - Data Splitting Done Successfully
+2025-03-21 09:58:13,097 - INFO - Inititing Model Training
+2025-03-21 09:58:13,097 - INFO - Starting Hyperparameter Tuning
+2025-03-21 09:58:13,097 - INFO - Staring our Hyperparameter tuning
+2025-03-21 09:58:15,496 - ERROR - Error occured while training the model 
+All the 8 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+8 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/sklearn/model_selection/_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/sklearn.py", line 1560, in fit
+    super().fit(
+    ~~~~~~~~~~~^
+        X,
+        ^^
+    ...<12 lines>...
+        init_model=init_model,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/sklearn.py", line 1049, in fit
+    self._Booster = train(
+                    ~~~~~^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ...<6 lines>...
+        callbacks=callbacks,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/engine.py", line 297, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 3656, in __init__
+    train_set.construct()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 2590, in construct
+    self._lazy_init(
+    ~~~~~~~~~~~~~~~^
+        data=self.data,
+        ^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        position=self.position,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 2123, in _lazy_init
+    data, feature_name, categorical_feature, self.pandas_categorical = _data_from_pandas(
+                                                                       ~~~~~~~~~~~~~~~~~^
+        data=data,
+        ^^^^^^^^^^
+    ...<2 lines>...
+        pandas_categorical=self.pandas_categorical,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 868, in _data_from_pandas
+    _pandas_to_numpy(data, target_dtype=target_dtype),
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 814, in _pandas_to_numpy
+    _check_for_bad_pandas_dtypes(data.dtypes)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 805, in _check_for_bad_pandas_dtypes
+    raise ValueError(
+        f"pandas dtypes must be int, float or bool.\nFields with bad pandas dtypes: {', '.join(bad_pandas_dtypes)}"
+    )
+ValueError: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: Booking_ID: object, type_of_meal_plan: object, room_type_reserved: object, market_segment_type: object
+
+2025-03-21 09:58:15,496 - ERROR - Error occured while running the model training pipeline Error in /Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/src/model_training.py , line 63 : Model Training Failed
+2025-03-21 10:01:58,972 - INFO - Staring our model training pipeline
+2025-03-21 10:01:58,972 - INFO - Loading data from artifacts/raw/train.csv
+2025-03-21 10:01:58,998 - INFO - Successfully loaded the data
+2025-03-21 10:01:58,998 - INFO - Loading data from artifacts/raw/test.csv
+2025-03-21 10:01:59,005 - INFO - Successfully loaded the data
+2025-03-21 10:01:59,006 - INFO - Data splitted sucefully for Model Training
+2025-03-21 10:01:59,007 - INFO - Intializing our model
+2025-03-21 10:01:59,007 - ERROR - Error while training model 'ModelTraining' object has no attribute 'random_search_params'
+2025-03-21 10:01:59,007 - ERROR - Error occured while running the model training pipeline Error in /Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/src/model_training.py , line 56 : Failed to train model
+2025-03-21 10:02:29,669 - INFO - Staring our model training pipeline
+2025-03-21 10:02:29,669 - INFO - Loading data from artifacts/raw/train.csv
+2025-03-21 10:02:29,696 - INFO - Successfully loaded the data
+2025-03-21 10:02:29,696 - INFO - Loading data from artifacts/raw/test.csv
+2025-03-21 10:02:29,703 - INFO - Successfully loaded the data
+2025-03-21 10:02:29,705 - INFO - Data splitted sucefully for Model Training
+2025-03-21 10:02:29,705 - INFO - Intializing our model
+2025-03-21 10:02:29,705 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:02:29,705 - ERROR - Error while training model 'ModelTraining' object has no attribute 'random_search_params'
+2025-03-21 10:02:29,705 - ERROR - Error occured while running the model training pipeline Error in /Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/src/model_training.py , line 63 : Failed to train model
+2025-03-21 10:02:57,474 - INFO - Staring our model training pipeline
+2025-03-21 10:02:57,475 - INFO - Loading data from artifacts/raw/train.csv
+2025-03-21 10:02:57,500 - INFO - Successfully loaded the data
+2025-03-21 10:02:57,501 - INFO - Loading data from artifacts/raw/test.csv
+2025-03-21 10:02:57,507 - INFO - Successfully loaded the data
+2025-03-21 10:02:57,509 - INFO - Data splitted sucefully for Model Training
+2025-03-21 10:02:57,509 - INFO - Intializing our model
+2025-03-21 10:02:57,509 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:02:57,509 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:03:00,451 - ERROR - Error while training model 
+All the 8 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+8 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/sklearn/model_selection/_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/sklearn.py", line 1560, in fit
+    super().fit(
+    ~~~~~~~~~~~^
+        X,
+        ^^
+    ...<12 lines>...
+        init_model=init_model,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/sklearn.py", line 1049, in fit
+    self._Booster = train(
+                    ~~~~~^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ...<6 lines>...
+        callbacks=callbacks,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/engine.py", line 297, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 3656, in __init__
+    train_set.construct()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 2590, in construct
+    self._lazy_init(
+    ~~~~~~~~~~~~~~~^
+        data=self.data,
+        ^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        position=self.position,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 2123, in _lazy_init
+    data, feature_name, categorical_feature, self.pandas_categorical = _data_from_pandas(
+                                                                       ~~~~~~~~~~~~~~~~~^
+        data=data,
+        ^^^^^^^^^^
+    ...<2 lines>...
+        pandas_categorical=self.pandas_categorical,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 868, in _data_from_pandas
+    _pandas_to_numpy(data, target_dtype=target_dtype),
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 814, in _pandas_to_numpy
+    _check_for_bad_pandas_dtypes(data.dtypes)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 805, in _check_for_bad_pandas_dtypes
+    raise ValueError(
+        f"pandas dtypes must be int, float or bool.\nFields with bad pandas dtypes: {', '.join(bad_pandas_dtypes)}"
+    )
+ValueError: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: Booking_ID: object, type_of_meal_plan: object, room_type_reserved: object, market_segment_type: object
+
+2025-03-21 10:03:00,451 - ERROR - Error occured while running the model training pipeline Error in /Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/src/model_training.py , line 73 : Failed to train model
+2025-03-21 10:04:06,390 - INFO - Staring our model training pipeline
+2025-03-21 10:04:06,390 - INFO - Loading data from artifacts/raw/train.csv
+2025-03-21 10:04:06,416 - INFO - Successfully loaded the data
+2025-03-21 10:04:06,417 - INFO - Loading data from artifacts/raw/test.csv
+2025-03-21 10:04:06,423 - INFO - Successfully loaded the data
+2025-03-21 10:04:06,425 - INFO - Data splitted sucefully for Model Training
+2025-03-21 10:04:06,425 - INFO - Intializing our model
+2025-03-21 10:04:06,425 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:04:06,425 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:04:09,032 - ERROR - Error while training model 
+All the 8 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+8 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/sklearn/model_selection/_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/sklearn.py", line 1560, in fit
+    super().fit(
+    ~~~~~~~~~~~^
+        X,
+        ^^
+    ...<12 lines>...
+        init_model=init_model,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/sklearn.py", line 1049, in fit
+    self._Booster = train(
+                    ~~~~~^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ...<6 lines>...
+        callbacks=callbacks,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/engine.py", line 297, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 3656, in __init__
+    train_set.construct()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 2590, in construct
+    self._lazy_init(
+    ~~~~~~~~~~~~~~~^
+        data=self.data,
+        ^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        position=self.position,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 2123, in _lazy_init
+    data, feature_name, categorical_feature, self.pandas_categorical = _data_from_pandas(
+                                                                       ~~~~~~~~~~~~~~~~~^
+        data=data,
+        ^^^^^^^^^^
+    ...<2 lines>...
+        pandas_categorical=self.pandas_categorical,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 868, in _data_from_pandas
+    _pandas_to_numpy(data, target_dtype=target_dtype),
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 814, in _pandas_to_numpy
+    _check_for_bad_pandas_dtypes(data.dtypes)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/.venv/lib/python3.13/site-packages/lightgbm/basic.py", line 805, in _check_for_bad_pandas_dtypes
+    raise ValueError(
+        f"pandas dtypes must be int, float or bool.\nFields with bad pandas dtypes: {', '.join(bad_pandas_dtypes)}"
+    )
+ValueError: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: Booking_ID: object, type_of_meal_plan: object, room_type_reserved: object, market_segment_type: object
+
+2025-03-21 10:04:09,032 - ERROR - Error occured while running the model training pipeline Error in /Users/triimamwicaksono/Library/CloudStorage/OneDrive-UniversityofTwente/Learn/Udemy/Ds/Portfolio/End to End/Hotel Reservation Prediction/hotel-reservation-prediction/src/model_training.py , line 73 : Failed to train model
+2025-03-21 10:06:20,799 - INFO - Staring our model training pipeline
+2025-03-21 10:06:20,799 - INFO - Loading data from artifacts/processed/train.csv
+2025-03-21 10:06:20,809 - INFO - Successfully loaded the data
+2025-03-21 10:06:20,809 - INFO - Loading data from artifacts/processed/test.csv
+2025-03-21 10:06:20,812 - INFO - Successfully loaded the data
+2025-03-21 10:06:20,813 - INFO - Data splitted sucefully for Model Training
+2025-03-21 10:06:20,813 - INFO - Intializing our model
+2025-03-21 10:06:20,813 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:06:20,813 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:06:45,698 - INFO - Hyperparamter tuning completed
+2025-03-21 10:06:45,698 - INFO - Best paramters are : {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-03-21 10:06:45,698 - INFO - Staring Model Evaluation
+2025-03-21 10:06:45,745 - INFO - Accuracy : 0.8806183115338883
+2025-03-21 10:06:45,746 - INFO - Precision : 0.863667348329925
+2025-03-21 10:06:45,746 - INFO - Recall : 0.9039239001189061
+2025-03-21 10:06:45,746 - INFO - F1 Score : 0.8833372066000464
+2025-03-21 10:06:45,746 - INFO - Saving the model
+2025-03-21 10:06:45,770 - INFO - Model saved at artifacts/models/lgbm_model.pkl
+2025-03-21 10:06:45,770 - INFO - Model Training Pipeline Completed
+2025-03-21 10:12:15,031 - INFO - Staring our model training pipeline
+2025-03-21 10:12:15,033 - INFO - Loading data from artifacts/processed/train.csv
+2025-03-21 10:12:15,048 - INFO - Successfully loaded the data
+2025-03-21 10:12:15,048 - INFO - Loading data from artifacts/processed/test.csv
+2025-03-21 10:12:15,052 - INFO - Successfully loaded the data
+2025-03-21 10:12:15,053 - INFO - Data splitted sucefully for Model Training
+2025-03-21 10:12:15,053 - INFO - Intializing our model
+2025-03-21 10:12:15,053 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:12:15,053 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:12:41,872 - INFO - Hyperparamter tuning completed
+2025-03-21 10:12:41,874 - INFO - Best paramters are : {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-03-21 10:12:41,874 - INFO - Staring Model Evaluation
+2025-03-21 10:12:41,920 - INFO - Accuracy : 0.8806183115338883
+2025-03-21 10:12:41,920 - INFO - Precision : 0.863667348329925
+2025-03-21 10:12:41,920 - INFO - Recall : 0.9039239001189061
+2025-03-21 10:12:41,920 - INFO - F1 Score : 0.8833372066000464
+2025-03-21 10:12:41,920 - INFO - Saving the model
+2025-03-21 10:12:41,953 - INFO - Model saved at artifacts/models/lgbm_model.pkl
+2025-03-21 10:12:41,963 - INFO - Model Training Pipeline Completed
