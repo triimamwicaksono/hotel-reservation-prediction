@@ -340,3 +340,65 @@ Fields with bad pandas dtypes: Booking_ID: object, type_of_meal_plan: object, ro
 2025-03-21 10:12:41,920 - INFO - Saving the model
 2025-03-21 10:12:41,953 - INFO - Model saved at artifacts/models/lgbm_model.pkl
 2025-03-21 10:12:41,963 - INFO - Model Training Pipeline Completed
+2025-03-21 10:35:51,639 - INFO - Successfully raed the yaml file
+2025-03-21 10:35:51,640 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-21 10:35:54,214 - ERROR - Error occured while downloading the data from bucket 403 GET https://storage.googleapis.com/download/storage/v1/b/my_bucket9789/o/Hotel_Reservations.csv?alt=media: The billing account for the owning project is disabled in state closed: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2025-03-21 10:37:32,656 - INFO - Successfully raed the yaml file
+2025-03-21 10:37:32,657 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-21 10:37:33,618 - ERROR - Error occured while downloading the data from bucket 403 GET https://storage.googleapis.com/download/storage/v1/b/my_bucket9789/o/Hotel_Reservations.csv?alt=media: The billing account for the owning project is disabled in state closed: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2025-03-21 10:38:49,779 - INFO - Successfully raed the yaml file
+2025-03-21 10:38:49,780 - INFO - Data Ingestion object created {self.bucket_name} and file save is {self.file_name}
+2025-03-21 10:38:51,877 - INFO - Data downloaded from bucket my_bucket3004 and file save is artifacts/raw/raw.csv
+2025-03-21 10:38:51,877 - INFO - Starting to split the data
+2025-03-21 10:38:51,927 - INFO - Data split completed
+2025-03-21 10:38:52,029 - INFO - Train and Test data saved at artifacts/raw/train.csv and artifacts/raw/test.csv
+2025-03-21 10:38:52,031 - INFO - Data Ingestion run completed
+2025-03-21 10:38:52,032 - INFO - Successfully raed the yaml file
+2025-03-21 10:38:52,032 - INFO - Loading data from RAW directory
+2025-03-21 10:38:52,059 - INFO - Successfully loaded the data
+2025-03-21 10:38:52,066 - INFO - Successfully loaded the data
+2025-03-21 10:38:52,066 - INFO - Starting our Data Processing step
+2025-03-21 10:38:52,066 - INFO - Dropping the columns
+2025-03-21 10:38:52,075 - INFO - Applying Label Encoding
+2025-03-21 10:38:52,083 - INFO - Label Mappings are : 
+2025-03-21 10:38:52,083 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-21 10:38:52,083 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-21 10:38:52,083 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-21 10:38:52,083 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-21 10:38:52,083 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-21 10:38:52,083 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-21 10:38:52,083 - INFO - Doing Skewness HAndling
+2025-03-21 10:38:52,086 - INFO - Starting our Data Processing step
+2025-03-21 10:38:52,086 - INFO - Dropping the columns
+2025-03-21 10:38:52,089 - INFO - Applying Label Encoding
+2025-03-21 10:38:52,091 - INFO - Label Mappings are : 
+2025-03-21 10:38:52,091 - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-03-21 10:38:52,091 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-21 10:38:52,091 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-03-21 10:38:52,091 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-03-21 10:38:52,091 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-03-21 10:38:52,091 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-03-21 10:38:52,091 - INFO - Doing Skewness HAndling
+2025-03-21 10:38:52,092 - INFO - Handling Imbalanced Data
+2025-03-21 10:38:52,251 - INFO - Data balanced sucesffuly
+2025-03-21 10:38:52,252 - INFO - Handling Imbalanced Data
+2025-03-21 10:38:52,275 - INFO - Data balanced sucesffuly
+2025-03-21 10:38:52,276 - INFO - Starting our Feature selection step
+2025-03-21 10:38:54,309 - INFO - Features selected : ['lead_time' 'no_of_special_requests' 'avg_price_per_room' 'arrival_month'
+ 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'type_of_meal_plan' 'room_type_reserved']
+2025-03-21 10:38:54,310 - INFO - Feature slection completed sucesfully
+2025-03-21 10:38:54,314 - INFO - Saving our data in processed folder
+2025-03-21 10:38:54,360 - INFO - Data saved sucesfuly to artifacts/processed/train.csv
+2025-03-21 10:38:54,360 - INFO - Saving our data in processed folder
+2025-03-21 10:38:54,373 - INFO - Data saved sucesfuly to artifacts/processed/test.csv
+2025-03-21 10:38:54,373 - INFO - Data processing completed sucesfully
+2025-03-21 10:38:54,664 - INFO - Staring our model training pipeline
+2025-03-21 10:38:54,664 - INFO - Loading data from artifacts/processed/train.csv
+2025-03-21 10:38:54,676 - INFO - Successfully loaded the data
+2025-03-21 10:38:54,676 - INFO - Loading data from artifacts/processed/test.csv
+2025-03-21 10:38:54,679 - INFO - Successfully loaded the data
+2025-03-21 10:38:54,679 - INFO - Data splitted sucefully for Model Training
+2025-03-21 10:38:54,679 - INFO - Intializing our model
+2025-03-21 10:38:54,679 - INFO - Starting our Hyperparamter tuning
+2025-03-21 10:38:54,679 - INFO - Starting our Hyperparamter tuning
